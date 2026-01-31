@@ -1,0 +1,11 @@
+# Compiled files
+*.class
+
+# Eclipse IDE files
+/.settings/
+/.classpath
+/.project
+
+# Build output
+/bin/
+ 

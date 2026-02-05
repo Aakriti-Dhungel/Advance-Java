@@ -6,7 +6,8 @@ This repository contains Java practice programs.
 - Java Template
 - Access Modifiers
 - Array and Collections
-
+- Inheritance
+- Threads and Thread Synchronization
 ## Project Structure
 ```
 
@@ -16,6 +17,7 @@ javatemplate/
 accessmodifier/
 arrayandcollection/
 Inheritance(Single/Multiple)
+Threads and Thread Synchronization
 .gitignore
 README.md
 
@@ -60,4 +62,22 @@ Multiple inheritance occurs when a class inherits from **multiple interfaces**.
 * **Multiple Inheritance:** A class implements multiple interfaces.
 
 ---
+## Threads in Java
 
+This section demonstrates how to work with threads in Java:
+
+1. **Using `Runnable` Interface**:
+   Creates a thread by implementing the `Runnable` interface and defining the `run()` method.
+
+2. **Extending `Thread` Class**:
+   Creates a thread by extending the `Thread` class and overriding the `run()` method.
+
+3. **Synchronization**:
+   Uses the `synchronized` keyword to ensure thread safety when multiple threads access shared resources (e.g., withdrawing money from an account).
+
+Key Concepts:
+
+* Thread creation and execution
+* Ensuring thread safety using synchronization
+
+---
